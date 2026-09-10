@@ -1,0 +1,16 @@
+{
+  "name": "ad-radar-cloud",
+  "version": "1.4.0",
+  "private": true,
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "meta": "node scraper.js",
+    "tiktok": "node scraper_tiktok.js",
+    "test": "node --test tests/*.test.cjs"
+  },
+  "dependencies": {
+    "playwright": "1.62.0"
+  }
+}
